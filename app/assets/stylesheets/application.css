@@ -20,3 +20,43 @@ div.alert {
 div.flash.success {
 	border: 2px solid green; color: green; 
 }
+
+div.nav {
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 10%;
+	padding: 5% 0 0 2%;
+}
+
+div.nav h1 {
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+div.nav a {
+	text-decoration: none !important;
+}
+
+div.nav ul {
+	float: left;
+	list-style: none;
+	clear: right;
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+
+div.nav ul li {
+	float: left;
+}
+
+div.nav ul li a {
+	display: block;
+	width: auto;
+	padding: 5% 5% 5% 6%;
+	background: #eee;
+	color: #aaa;
+}
+
+div.nav ul li a:hover {
+	background: #aaa;
+	color: #eee;
+}
